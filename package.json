@@ -17,6 +17,8 @@
   "dependencies": {
     "archiver": "^2.1.1",
     "argparse": "^1.0.10",
-    "axios": "^0.18.0"
+    "content-type": "^1.0.4",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
   }
 }
