@@ -1,0 +1,22 @@
+{
+  "name": "amocrm-widget-installer",
+  "version": "0.1.0",
+  "description": "amoCRM widget installer",
+  "bin": {
+    "amoinst": "./index.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suntsovkirill/amocrm-widget-installer.git"
+  },
+  "author": "Suntsov Kirill <suntsov.kirill@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "argparse": "^1.0.10",
+    "axios": "^0.18.0"
+  }
+}
