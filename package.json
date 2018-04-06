@@ -1,9 +1,9 @@
 {
   "name": "amocrm-widget-installer",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "amoCRM widget installer",
   "bin": {
-    "amoinst": "./index.js"
+    "amoinst": "./amoinst.js"
   },
   "engines": {
     "node": ">=8.0.0"
