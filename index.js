@@ -30,9 +30,8 @@ class WidgetInstaller {
     }
 
     auth() {
-        return this._request.get(`https://${this.domain}.amocrm.ru/private/api/auth.php`, {
+        return this._request.get(`https://${this.domain}.amocrm.ru/`, {
             qs: {
-                'type': 'json',
                 'USER_LOGIN': this.login,
                 'USER_HASH': this.apikey
             }
